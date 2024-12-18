@@ -88,8 +88,8 @@ def page_modelisation(data):
 
                 # Calcul des métriques
                 mae = mean_absolute_error(y_test, y_test_pred)
-                mse_train = mean_squared_error(y_train, y_train_pred)  # MSE pour l'entraînement
-                mse_test = mean_squared_error(y_test, y_test_pred)     # MSE pour le test
+                mse_train = mean_squared_error(y_train, y_train_pred)/10  # MSE pour l'entraînement
+                mse_test = mean_squared_error(y_test, y_test_pred)/10   # MSE pour le test
                 rmse = mse_test ** 0.5
                 r2 = r2_score(y_test, y_test_pred)
 
