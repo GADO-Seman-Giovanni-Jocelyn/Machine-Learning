@@ -8,4 +8,4 @@ Ce projet permet de répondre à la problématique des facteurs explicatifs des 
 
 -Construire un modèle de régression permettant de faire de bonnes prédictions sur performances des élèves.
 
-- Developper une application et la deployer
+-Developper une application et la deployer
